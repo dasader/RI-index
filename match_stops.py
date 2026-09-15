@@ -28,7 +28,7 @@ def load_stops(path):
         "id": pick("정류장번호", "정류소번호", "정류장ID", "정류소ID", "ARS"),
         "lat": pick("위도", "lat"),
         "lon": pick("경도", "lon", "lng"),
-        "region": pick("지자체", "시도", "시군구", "주소"),
+        "region": pick("도시명", "지자체", "시도", "시군구", "주소"),
     }
 
 
